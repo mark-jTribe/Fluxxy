@@ -1,0 +1,481 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6588EF191F2AE71514EEA82E /* Pods_Fluxxy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29303971F776F1FD8ED1FAA4 /* Pods_Fluxxy.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		B137C3371B9A78E3006F5672 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B137C3361B9A78E3006F5672 /* AppDelegate.swift */; };
+		B137C3391B9A78E3006F5672 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B137C3381B9A78E3006F5672 /* ViewController.swift */; };
+		B137C33C1B9A78E3006F5672 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B137C33A1B9A78E3006F5672 /* Main.storyboard */; };
+		B137C33E1B9A78E3006F5672 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B137C33D1B9A78E3006F5672 /* Assets.xcassets */; };
+		B137C3411B9A78E3006F5672 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B137C33F1B9A78E3006F5672 /* LaunchScreen.storyboard */; };
+		B137C34C1B9A78E3006F5672 /* FluxxyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B137C34B1B9A78E3006F5672 /* FluxxyTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B137C3481B9A78E3006F5672 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B137C32B1B9A78E3006F5672 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B137C3321B9A78E3006F5672;
+			remoteInfo = Fluxxy;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		29303971F776F1FD8ED1FAA4 /* Pods_Fluxxy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Fluxxy.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		937F95C2D2D91F79C85E9715 /* Pods-Fluxxy.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fluxxy.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Fluxxy/Pods-Fluxxy.debug.xcconfig"; sourceTree = "<group>"; };
+		B137C3331B9A78E3006F5672 /* Fluxxy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Fluxxy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B137C3361B9A78E3006F5672 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B137C3381B9A78E3006F5672 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B137C33B1B9A78E3006F5672 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B137C33D1B9A78E3006F5672 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B137C3401B9A78E3006F5672 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B137C3421B9A78E3006F5672 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B137C3471B9A78E3006F5672 /* FluxxyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FluxxyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B137C34B1B9A78E3006F5672 /* FluxxyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FluxxyTests.swift; sourceTree = "<group>"; };
+		B137C34D1B9A78E3006F5672 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F05DD96D4550C448FBA76DFA /* Pods-Fluxxy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fluxxy.release.xcconfig"; path = "Pods/Target Support Files/Pods-Fluxxy/Pods-Fluxxy.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B137C3301B9A78E3006F5672 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6588EF191F2AE71514EEA82E /* Pods_Fluxxy.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B137C3441B9A78E3006F5672 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		96CB0098039E5895680772C6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				937F95C2D2D91F79C85E9715 /* Pods-Fluxxy.debug.xcconfig */,
+				F05DD96D4550C448FBA76DFA /* Pods-Fluxxy.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B137C32A1B9A78E3006F5672 = {
+			isa = PBXGroup;
+			children = (
+				B137C3351B9A78E3006F5672 /* Fluxxy */,
+				B137C34A1B9A78E3006F5672 /* FluxxyTests */,
+				B137C3341B9A78E3006F5672 /* Products */,
+				96CB0098039E5895680772C6 /* Pods */,
+				F3F4C4FB173CA2F2C9A6E2A2 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B137C3341B9A78E3006F5672 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B137C3331B9A78E3006F5672 /* Fluxxy.app */,
+				B137C3471B9A78E3006F5672 /* FluxxyTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B137C3351B9A78E3006F5672 /* Fluxxy */ = {
+			isa = PBXGroup;
+			children = (
+				B137C3361B9A78E3006F5672 /* AppDelegate.swift */,
+				B137C3381B9A78E3006F5672 /* ViewController.swift */,
+				B137C33A1B9A78E3006F5672 /* Main.storyboard */,
+				B137C33D1B9A78E3006F5672 /* Assets.xcassets */,
+				B137C33F1B9A78E3006F5672 /* LaunchScreen.storyboard */,
+				B137C3421B9A78E3006F5672 /* Info.plist */,
+			);
+			path = Fluxxy;
+			sourceTree = "<group>";
+		};
+		B137C34A1B9A78E3006F5672 /* FluxxyTests */ = {
+			isa = PBXGroup;
+			children = (
+				B137C34B1B9A78E3006F5672 /* FluxxyTests.swift */,
+				B137C34D1B9A78E3006F5672 /* Info.plist */,
+			);
+			path = FluxxyTests;
+			sourceTree = "<group>";
+		};
+		F3F4C4FB173CA2F2C9A6E2A2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				29303971F776F1FD8ED1FAA4 /* Pods_Fluxxy.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B137C3321B9A78E3006F5672 /* Fluxxy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B137C3501B9A78E3006F5672 /* Build configuration list for PBXNativeTarget "Fluxxy" */;
+			buildPhases = (
+				271E68D5B5C407FD79D93276 /* Check Pods Manifest.lock */,
+				B137C32F1B9A78E3006F5672 /* Sources */,
+				B137C3301B9A78E3006F5672 /* Frameworks */,
+				B137C3311B9A78E3006F5672 /* Resources */,
+				F404361FF1B6FE15A19C5277 /* Embed Pods Frameworks */,
+				FC46111A948D6E94E0643B4A /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Fluxxy;
+			productName = Fluxxy;
+			productReference = B137C3331B9A78E3006F5672 /* Fluxxy.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B137C3461B9A78E3006F5672 /* FluxxyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B137C3531B9A78E3006F5672 /* Build configuration list for PBXNativeTarget "FluxxyTests" */;
+			buildPhases = (
+				B137C3431B9A78E3006F5672 /* Sources */,
+				B137C3441B9A78E3006F5672 /* Frameworks */,
+				B137C3451B9A78E3006F5672 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B137C3491B9A78E3006F5672 /* PBXTargetDependency */,
+			);
+			name = FluxxyTests;
+			productName = FluxxyTests;
+			productReference = B137C3471B9A78E3006F5672 /* FluxxyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B137C32B1B9A78E3006F5672 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = mrrobinson;
+				TargetAttributes = {
+					B137C3321B9A78E3006F5672 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					B137C3461B9A78E3006F5672 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = B137C3321B9A78E3006F5672;
+					};
+				};
+			};
+			buildConfigurationList = B137C32E1B9A78E3006F5672 /* Build configuration list for PBXProject "Fluxxy" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B137C32A1B9A78E3006F5672;
+			productRefGroup = B137C3341B9A78E3006F5672 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B137C3321B9A78E3006F5672 /* Fluxxy */,
+				B137C3461B9A78E3006F5672 /* FluxxyTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B137C3311B9A78E3006F5672 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B137C3411B9A78E3006F5672 /* LaunchScreen.storyboard in Resources */,
+				B137C33E1B9A78E3006F5672 /* Assets.xcassets in Resources */,
+				B137C33C1B9A78E3006F5672 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B137C3451B9A78E3006F5672 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		271E68D5B5C407FD79D93276 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F404361FF1B6FE15A19C5277 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Fluxxy/Pods-Fluxxy-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FC46111A948D6E94E0643B4A /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Fluxxy/Pods-Fluxxy-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B137C32F1B9A78E3006F5672 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B137C3391B9A78E3006F5672 /* ViewController.swift in Sources */,
+				B137C3371B9A78E3006F5672 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B137C3431B9A78E3006F5672 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B137C34C1B9A78E3006F5672 /* FluxxyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B137C3491B9A78E3006F5672 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B137C3321B9A78E3006F5672 /* Fluxxy */;
+			targetProxy = B137C3481B9A78E3006F5672 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B137C33A1B9A78E3006F5672 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B137C33B1B9A78E3006F5672 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B137C33F1B9A78E3006F5672 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B137C3401B9A78E3006F5672 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B137C34E1B9A78E3006F5672 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B137C34F1B9A78E3006F5672 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B137C3511B9A78E3006F5672 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 937F95C2D2D91F79C85E9715 /* Pods-Fluxxy.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Fluxxy/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mrrobinson.Fluxxy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B137C3521B9A78E3006F5672 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F05DD96D4550C448FBA76DFA /* Pods-Fluxxy.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Fluxxy/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mrrobinson.Fluxxy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B137C3541B9A78E3006F5672 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FluxxyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mrrobinson.FluxxyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Fluxxy.app/Fluxxy";
+			};
+			name = Debug;
+		};
+		B137C3551B9A78E3006F5672 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FluxxyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mrrobinson.FluxxyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Fluxxy.app/Fluxxy";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B137C32E1B9A78E3006F5672 /* Build configuration list for PBXProject "Fluxxy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B137C34E1B9A78E3006F5672 /* Debug */,
+				B137C34F1B9A78E3006F5672 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B137C3501B9A78E3006F5672 /* Build configuration list for PBXNativeTarget "Fluxxy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B137C3511B9A78E3006F5672 /* Debug */,
+				B137C3521B9A78E3006F5672 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B137C3531B9A78E3006F5672 /* Build configuration list for PBXNativeTarget "FluxxyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B137C3541B9A78E3006F5672 /* Debug */,
+				B137C3551B9A78E3006F5672 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B137C32B1B9A78E3006F5672 /* Project object */;
+}
